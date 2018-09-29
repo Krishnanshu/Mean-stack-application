@@ -1,4 +1,4 @@
-require('./api/data/db.js');
+require('./api/data/dbcontroller.js').open();
 var express = require('express');
 var app = express();
 var path = require('path');
