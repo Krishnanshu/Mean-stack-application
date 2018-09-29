@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dburl = 'mongodb://localhost:27017/hoteldata'
+var dburl = 'mongodb://35.200.205.217:27017/hoteldata'
 
 mongoose.connect(dburl);
 
