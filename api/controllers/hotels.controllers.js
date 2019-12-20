@@ -62,6 +62,6 @@ module.exports.hotellsAddOne = function(req, res) {
     console.log("Data missing from body");
     res
       .status(400)
-      .json({ message : "Required data missing from body"});
+      .json({ message : "Required data missing from bthis body"});
   }
 };
